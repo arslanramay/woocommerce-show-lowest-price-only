@@ -21,7 +21,7 @@ add_action( 'plugins_loaded', 'show_lowest_price_only_in_woocommerce_variable_pr
 add_filter( 'woocommerce_variable_sale_price_html', 'woogenie_variation_price_format', 10, 2 );
 add_filter( 'woocommerce_variable_price_html', 'woogenie_variation_price_format', 10, 2 );
 
-// For Variable products
+// For Variable Products
 function woogenie_variation_price_format( $price, $product ) {
 
     // Main Price
